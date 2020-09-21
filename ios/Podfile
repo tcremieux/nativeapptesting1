@@ -54,6 +54,10 @@ target 'nativeTemplate' do
   use_native_modules!
   common_pods
   # Intentionally left empty
+  pod 'react-native-nfc-manager', :path => '../node_modules/react-native-nfc-manager'
+
+  pod 'RNShare', :path => '../node_modules/react-native-share'
+
 end
 
 target 'dev' do

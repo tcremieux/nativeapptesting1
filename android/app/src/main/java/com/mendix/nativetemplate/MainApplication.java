@@ -10,6 +10,8 @@ import com.mendix.mendixnative.MendixReactApplication;
 import com.mendix.mendixnative.react.splash.MendixSplashScreenPresenter;
 import com.microsoft.codepush.react.CodePush;
 
+import community.revteltech.nfc.NfcManagerPackage;
+
 import org.devio.rn.splashscreen.SplashScreen;
 
 import java.util.List;

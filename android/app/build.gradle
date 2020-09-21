@@ -98,6 +98,8 @@ project.ext.vectoricons = [
 ]
 
 dependencies {
+    implementation project(':react-native-share')
+    implementation project(':react-native-nfc-manager')
     implementation project(':react-native-splash-screen')
     implementation project(':react-native-code-push')
     implementation project(":mendixnative-release")
